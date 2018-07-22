@@ -11,7 +11,7 @@ class Calc:
         return a-b
 
     def multi(self, a, b):
-        return round(a*b,2)
+        return a*b
 
 
 class TestStringMethods(unittest.TestCase):
